@@ -1,0 +1,74 @@
+.Email-box {
+  background-color: #ffd8ca;
+  padding: 48px 0;
+  margin: 48px 0;
+  height: 588.375px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Email-box h1 {
+  text-align: center;
+  font-size: 76px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: 91.2px;
+  margin-bottom: 16px;
+  width: 540px;
+}
+
+.recommendation {
+  text-align: center;
+  font-family: Popins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 16px;
+  width: 540px;
+}
+.btn-email-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.email-input {
+  padding: 6px 12px 6px 25px;
+  height: 68px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  cursor: text;
+  width: 540px;
+  position: relative;
+}
+.join-btn {
+  text-align: center;
+  padding: 5px 45px 5px 42px;
+  background-color: rgb(255, 100, 43);
+  border: none;
+  color: white;
+  font-family: Popins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  outline-style: none;
+  position: absolute;
+  height: 74px;
+  top: 3px;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+}
+.Term {
+  font-family: Popins;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 16px;
+  line-height: 18px;
+}

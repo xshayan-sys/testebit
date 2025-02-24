@@ -1,0 +1,93 @@
+.card-container-breakfast {
+  margin: 48px 0;
+}
+.card-container-Desert {
+  margin:  0 0 48px 0;
+}
+.card-container-breakfast h1 {
+  padding: 16px 0;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+}
+.card-container-Desert h1 {
+  padding: 16px 0;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+}
+.Breakfast-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.Deresrt-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding: 0 15px;
+  height: 342px;
+}
+.Breakfast-cards img {
+  width: 350px;
+  height: 243px;
+  margin-top: 16px ;
+
+}
+.Deresrt-cards img {
+  width: 350px;
+  height: 243px;
+  margin-top: 16px ;
+}
+.star-rating {
+  display: flex;
+  justify-content: start;
+  margin-top: 4px;
+}
+.star-rating img {
+  width: 14px;
+  height: 14px;
+  margin: 5px 5px 10px 0;
+}
+.Breakfast-cards .card:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+.Deresrt-cards .card:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+.Breakfast-cards .card:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.Desert-cards .card:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.card-container-breakfast h2 {
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 19px;
+}
+.card-container-Desert h2 {
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 19px;
+}

@@ -1,0 +1,32 @@
+.categories-container {
+  display: flex;
+  justify-content: space-between;
+}
+.categories-container h3 {
+  text-align: center;
+}
+#pop-ceta {
+  padding: 16px 0;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+}
+.category-card {
+  padding: 0 15px;
+  margin: 16px 0;
+}
+.categories-container .category-card:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.categories-container .category-card:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+.category-card h3 {
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: Popins;
+}
+.PopularCategories{
+    margin-bottom: 48px;
+}
